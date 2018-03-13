@@ -1,6 +1,10 @@
-export default function createStore(reducer) {
+export default function createStore(reducer, enhancer) {
   const listeners = []
   let state = undefined
+
+  if (enhancer) {
+    return enhancer(createStore)(reducer)
+  }
 
   const dispatch = action => {
     state = reducer(state, action)

@@ -12,3 +12,13 @@ export const deleteTodo = id => ({ type: DELETE_TODO, payload: { id } })
 
 export const increateCounter = () => ({ type: INCREASE_COUNTER })
 export const decreaceCounter = () => ({ type: DECREASE_COUNTER })
+
+export const increateCounterAsync = () => dispatch => {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve()
+    }, 1000)
+  }).then(() => {
+    dispatch(increateCounter())
+  })
+}
