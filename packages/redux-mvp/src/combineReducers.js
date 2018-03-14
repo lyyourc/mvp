@@ -1,3 +1,8 @@
+/**
+ * reducers -> reducer
+ * 
+ * @param {object} reducers 
+ */
 export default function combineReducers(reducers = {}) {
   return function(state = {}, action = {}) {
     return Object.keys(reducers).reduce((prevState, key) => {

@@ -1,3 +1,7 @@
+/**
+ * pub-sub pattern
+ */
+
 export default function createStore(reducer, enhancer) {
   const listeners = []
   let state = undefined

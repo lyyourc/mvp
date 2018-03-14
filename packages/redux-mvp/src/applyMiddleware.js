@@ -1,3 +1,8 @@
+/**
+ * origin.dispatch -> middlewares -> final.dispatch
+ * 
+ * @param {Function} middlewares 
+ */
 export default function applyMiddleware(...middlewares) {
   return createStore => (...args) => {
     const store = createStore(...args)
