@@ -7,13 +7,17 @@ export default class Provider extends Component {
     children: PropTypes.element.isRequired,
   }
 
+  static childContextTypes = {
+    store: PropTypes.object.isRequired,
+  }
+
   constructor(props, context) {
     super(props, context)
   }
 
   getChildContext = () => {
     return {
-      store: this.store,
+      store: this.props.store,
     }
   }
 
