@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`connnect 1`] = `
+<div>
+  <div>
+    <div>
+      0
+    </div>
+    <button
+      onClick={[Function]}
+    >
+      +
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      -
+    </button>
+  </div>
+</div>
+`;
+
+exports[`connnect 2`] = `
+<div>
+  <div>
+    <div>
+      1
+    </div>
+    <button
+      onClick={[Function]}
+    >
+      +
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      -
+    </button>
+  </div>
+</div>
+`;
+
+exports[`connnect 3`] = `
+<div>
+  <div>
+    <div>
+      0
+    </div>
+    <button
+      onClick={[Function]}
+    >
+      +
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      -
+    </button>
+  </div>
+</div>
+`;
