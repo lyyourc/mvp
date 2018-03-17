@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`koa 1`] = `
+Object {
+  "arr": Array [
+    1,
+    2,
+  ],
+}
+`;
