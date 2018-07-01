@@ -1,0 +1,21 @@
+{
+  "name": "immer-mvp",
+  "version": "0.0.0",
+  "description": "mvp of immer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "immer"
+  ],
+  "author": "drakeleung42@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.4.1",
+    "jest": "^22.4.2"
+  }
+}

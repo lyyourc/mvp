@@ -7,6 +7,7 @@
 
 * [state.proxies[prop]](https://github.com/mweststrate/immer/blob/master/src/proxy.js#L71)
 * [Object.assign(state.copy, state.proxies)](https://github.com/mweststrate/immer/blob/master/src/proxy.js#L116)
+* [finalize](https://github.com/mweststrate/immer/blob/master/src/common.js#L77)
 
 ## See also
 
